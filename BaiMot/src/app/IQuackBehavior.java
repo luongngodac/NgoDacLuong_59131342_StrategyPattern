@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 
-package edu.ntu.straterypatterdemo;
+package app;
 
 /**
  *
  * @author int
  */
-public class FlyNoWay {
-    public void fly() {
-        System.out.println ("khong bay duoc");
-    }
+public class IQuackBehavior {
+    public String quack();
 }

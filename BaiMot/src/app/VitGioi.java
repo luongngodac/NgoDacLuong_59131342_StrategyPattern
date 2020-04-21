@@ -4,17 +4,19 @@
  * and open the template in the editor.
  */
 
-package edu.ntu.straterypatterdemo;
+package app;
 
 /**
  *
  * @author int
  */
-public class VitCaoCo {
-        @Override 
+public class VitGioi extends Duck//alt + ctrl space
+{
+	//alt + insert: chen vao trong
+	@Override 
 	public String Display()
 	{
-		return "Xin chao, minh la vit cao co hay con goi la vit co cao " + "\n"+
+		return "Xin chao! Em la vit gioi, chua co chong " + "\n"+
 			performQuack()+ "\n" +
 			performFly();
 			

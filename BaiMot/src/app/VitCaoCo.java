@@ -4,26 +4,19 @@
  * and open the template in the editor.
  */
 
-package edu.ntu.straterypatterdemo;
+package app;
 
 /**
  *
  * @author int
  */
-public class MallarDuck extends Duck
-{
-	public MallarDuck()
-	{
-		
-	}
-	@Override 
+public class VitCaoCo {
+        @Override 
 	public String Display()
 	{
-		return "Xin chao! Em la vit co xanh " + "\n"+
+		return "Xin chao, minh la vit cao co hay con goi la vit co cao " + "\n"+
 			performQuack()+ "\n" +
 			performFly();
 			
 	}
-	
-	
 }

@@ -4,16 +4,26 @@
  * and open the template in the editor.
  */
 
-package edu.ntu.straterypatterdemo;
+package app;
 
 /**
  *
  * @author int
  */
-public class Quack {
-    @Override
-	public String quack()
+public class MallarDuck extends Duck
+{
+	public MallarDuck()
 	{
-		return "Hello you ! Quack ";
+		
 	}
+	@Override 
+	public String Display()
+	{
+		return "Xin chao! Em la vit co xanh " + "\n"+
+			performQuack()+ "\n" +
+			performFly();
+			
+	}
+	
+	
 }

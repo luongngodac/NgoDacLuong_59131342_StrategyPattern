@@ -4,12 +4,16 @@
  * and open the template in the editor.
  */
 
-package edu.ntu.straterypatterdemo;
+package app;
 
 /**
  *
  * @author int
  */
-public class IFlyBehavior {
-    public String fly();
+public class Quack {
+    @Override
+	public String quack()
+	{
+		return "Hello you ! Quack ";
+	}
 }
