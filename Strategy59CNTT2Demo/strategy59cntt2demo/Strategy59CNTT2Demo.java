@@ -19,7 +19,7 @@ import quackpackage.SQuack;
  *
  * @author asus
  */
-public class Strategy59CNTT1Demo
+public class Strategy59CNTT2Demo
 {
     /**
      * @param args the command line arguments
