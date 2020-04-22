@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package app;
+package quackpackage;
 
 /**
  *
- * @author int
+ * @author asus
  */
-public class MuteQuack {
-        @Override
-	public String quack()
-	{
-		return "um um um  ";
-	}
+public interface IQuackable
+{
+    public String quack();
 }

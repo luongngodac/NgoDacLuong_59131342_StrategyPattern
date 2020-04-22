@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package app;
+package flypackage;
 
 /**
  *
- * @author int
+ * @author asus
  */
-public class Quack {
-    @Override
-	public String quack()
-	{
-		return "Hello you ! Quack ";
-	}
+public interface IFlyable
+{
+    public String fly();
 }

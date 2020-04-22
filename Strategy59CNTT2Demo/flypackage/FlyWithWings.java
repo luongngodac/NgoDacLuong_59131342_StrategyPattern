@@ -3,15 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package app;
+package flypackage;
 
 /**
  *
- * @author int
+ * @author asus
  */
-public class FlyNoWay {
-    public void fly() {
-        System.out.println ("khong bay duoc");
+public class FlyWithWings implements IFlyable
+{
+
+    @Override
+    public String fly()
+    {
+        return "Em như chim bồ câu tung cánh giữa trời";
     }
+    
 }

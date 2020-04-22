@@ -3,18 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package app;
+package flypackage;
 
 /**
  *
- * @author int
+ * @author asus
  */
-public class FlyByWings implements IFlyBehavior
+public interface IFlyable
 {
-	@Override 
-	public String fly()
-	{
-		return "Em nhu chim bo cau tung canh giua troi ";
-	}
+    public String fly();
 }
