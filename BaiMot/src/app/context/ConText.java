@@ -1,9 +1,9 @@
 package app.context;
 import app.tinh.*;
 public class ConText{
-    private Tinh tinhToan;
+    public Tinh tinhToan;
 
-    public void setTinhtoan(Tinh tinhToan) {
+    public void setTinhToan(Tinh tinhToan) {
         tinhToan = new tinhToan;
     }
 

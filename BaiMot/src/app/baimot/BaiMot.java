@@ -28,15 +28,13 @@ public class BaiMot
         TinhToan phepChia = new PhepChia();
         TinhToan phepNhan = new PhepNhan();
         
-
-
-        ConRext context = new conText();
+        ConText context = new ConText();
         context.setTinhToan(phepCong);
-        float x = context.tinh(75,12.54f);
+        float x = context.tinh(75,12);
 
-        context.setTinhtoan(phepTru);
-        float y = context.tinh(x,78);
+        context.setTinhToan(phepTru);
+        float y = context.tinh(54,78);
 
-        System.out.println("Ket qua:"+y);
+        System.out.println("75 + 12 = " + x + "\n 54 - 78 = " + y);
     }    
 }
