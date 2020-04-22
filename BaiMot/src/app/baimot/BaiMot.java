@@ -23,17 +23,15 @@ public class BaiMot
     public static void main(String[] args)
     {
         // TODO code application logic here
-        TinhToan phepCong = new PhepCong();
-        TinhToan phepTru = new PhepTru();
-        TinhToan phepChia = new PhepChia();
-        TinhToan phepNhan = new PhepNhan();
-        
-        ConText context = new ConText();
-        context.setTinhToan(phepCong);
-        float x = context.tinh(75,12);
-
-        context.setTinhToan(phepTru);
-        float y = context.tinh(54,78);
+        Tinh phepCong = new PhepCong();
+        Tinh phepTru = new PhepTru();
+        Tinh phepChia = new PhepChia();
+        Tinh phepNhan = new PhepNhan();
+        ConText c = new ConText();
+        c.setTinhToan(phepCong);
+        float x = c.tinh(75,12);
+        c.setTinhToan(phepTru);
+        float y = c.tinh(54,78);
 
         System.out.println("75 + 12 = " + x + "\n 54 - 78 = " + y);
     }    

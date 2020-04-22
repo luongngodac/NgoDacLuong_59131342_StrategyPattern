@@ -4,7 +4,7 @@ public class ConText{
     public Tinh tinhToan;
 
     public void setTinhToan(Tinh tinhToan) {
-        tinhToan = new tinhToan;
+        this.tinhToan =  tinhToan ;
     }
 
     public float tinh(float a,float b){

@@ -1,6 +1,6 @@
 package app.chia;
 import app.tinh.*;
-public class PhepChia implements TinhToan{
+public class PhepChia implements Tinh{
     @Override
     public float  tinh (float a, float b)
     {
