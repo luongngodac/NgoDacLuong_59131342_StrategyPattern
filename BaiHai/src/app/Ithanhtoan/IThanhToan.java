@@ -1,5 +1,5 @@
-package app.Ithanhtoan;
-
-public class IThanhToan {
-
+package app.ithanhtoan;
+import app.giohang.*;
+public interface IThanhToan {
+    public double thanhToan (int tienHang);
 }
